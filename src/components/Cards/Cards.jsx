@@ -1,11 +1,11 @@
-import Card from './Card';
+import Card from '../Card/Card.jsx';
 
 export default function Cards(props) {
    // props = { characters: [ {--}, {--}, {---} ] }
    const { characters } = props;
    // characters = [ {--}, {--}, {---} ]
    return (
-      <div>
+      <div style={{display:"flex", justifyContent: "space-between"}}>
          {characters.map(character => (
             <Card 
                key={character.id}
