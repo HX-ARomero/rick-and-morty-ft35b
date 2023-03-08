@@ -1,42 +1,40 @@
 .container {
-    border: 1px solid grey;
-    background-color: lightgray;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: rgb(184, 184, 184);
     border-radius: 10px;
-    width: 150px;
+    width: 180px;
     padding: 10px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 15px black;
+    margin: 10px;
+}
+
+.container h2 {
+    color: rgb(77, 77, 77);
 }
 
 .image {
-    width: 140px;
+    width: 95%;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 10px;
 }
 
 .buttonContainer {
-    /* border: 1px solid grey; */
     display: flex;
     justify-content: flex-end;
 }
 
 .buttonContainer button {
-    background-color: salmon;
-    color: white;
-    border: 0px;
-    border-radius: 2px;
+    margin: 3px 3px 0 0;
+    background-color: rgb(216, 69, 69);
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
 }
 
-.dataContainer {
-    text-align: center;
-    padding: 10px;
+.data {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(97, 97, 97);
 }
 
-.dataContainer h2 {
-    margin: 2px;
-    font-size: 16px;
-    color: darkslategray;
-}
 
-.dataContainer h4 {
-    margin: 2px;
-    font-size: 14px;
-    color: darkslategray;
-}
